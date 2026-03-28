@@ -117,7 +117,7 @@ export default function PrivacyPolicy() {
                 href="https://crestconvert.com/pdf-to-jpg"
                 className="text-muted hover:text-black transition-colors"
               >
-                CrestConvert
+                Crest Convert
               </a>
             </p>
             <Link

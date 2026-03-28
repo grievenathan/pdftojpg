@@ -177,7 +177,7 @@ export default function Home() {
                 href="https://crestconvert.com/pdf-to-jpg"
                 className="text-muted hover:text-gray-900 transition-colors"
               >
-                CrestConvert
+                Crest Convert
               </a>
             </p>
             <Link
