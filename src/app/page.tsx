@@ -172,7 +172,13 @@ export default function Home() {
         <footer className="border-t border-border py-8">
           <div className="flex flex-col items-center gap-3 text-center sm:flex-row sm:justify-between sm:text-left">
             <p className="text-sm text-muted">
-              &copy; {new Date().getFullYear()} pdftojpg.co.uk
+              &copy; {new Date().getFullYear()} pdftojpg.co.uk &middot; Powered by{" "}
+              <a
+                href="https://crestconvert.com/pdf-to-jpg"
+                className="text-muted hover:text-gray-900 transition-colors"
+              >
+                CrestConvert
+              </a>
             </p>
             <Link
               href="/privacy"

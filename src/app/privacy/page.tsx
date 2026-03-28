@@ -112,7 +112,13 @@ export default function PrivacyPolicy() {
         <footer className="mt-16 border-t border-border pt-8">
           <div className="flex flex-col items-center gap-3 text-center sm:flex-row sm:justify-between sm:text-left">
             <p className="text-sm text-muted">
-              &copy; {new Date().getFullYear()} pdftojpg.co.uk
+              &copy; {new Date().getFullYear()} pdftojpg.co.uk &middot; Powered by{" "}
+              <a
+                href="https://crestconvert.com/pdf-to-jpg"
+                className="text-muted hover:text-black transition-colors"
+              >
+                CrestConvert
+              </a>
             </p>
             <Link
               href="/"
