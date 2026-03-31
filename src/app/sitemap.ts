@@ -9,6 +9,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
+      url: "https://pdftojpg.co.uk/how-to-convert-pdf-to-jpg",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
       url: "https://pdftojpg.co.uk/privacy",
       lastModified: new Date(),
       changeFrequency: "yearly",

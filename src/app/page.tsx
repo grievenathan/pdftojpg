@@ -143,7 +143,7 @@ export default function Home() {
           <div className="space-y-px overflow-hidden rounded-xl border border-border">
             <FaqItem
               question="Why convert PDF to JPG?"
-              answer="JPG images are universally supported and easy to share. Converting PDF pages to JPG makes them perfect for presentations, social media, messaging apps, or embedding in documents."
+              answer={<>JPG images are universally supported and easy to share. Converting PDF pages to JPG makes them perfect for presentations, social media, messaging apps, or embedding in documents. <a href="/how-to-convert-pdf-to-jpg" className="underline underline-offset-2 hover:text-gray-900 transition-colors">Read our full guide</a>.</>}
             />
             <FaqItem
               question="Is this tool free?"
@@ -193,7 +193,7 @@ export default function Home() {
   );
 }
 
-function FaqItem({ question, answer }: { question: string; answer: string }) {
+function FaqItem({ question, answer }: { question: string; answer: React.ReactNode }) {
   return (
     <details className="group bg-surface">
       <summary className="flex cursor-pointer items-center justify-between px-6 py-4 text-sm font-medium text-gray-900 hover:bg-surface-hover transition-colors">
